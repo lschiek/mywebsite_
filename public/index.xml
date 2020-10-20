@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Luca Schiek</title>
+    <link>/</link>
+    <description>Recent content on Luca Schiek</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 31 Oct 2017 22:42:51 -0500</lastBuildDate><atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>About Me</title>
+      <link>/blogs/aboutme/</link>
+      <pubDate>Tue, 31 Oct 2017 22:42:51 -0500</pubDate>
+      
+      <guid>/blogs/aboutme/</guid>
+      <description>Personal Introduction.</description>
+    </item>
+    
+    <item>
+      <title>About me</title>
+      <link>/projects/aboutme/</link>
+      <pubDate>Tue, 31 Oct 2017 22:42:51 -0500</pubDate>
+      
+      <guid>/projects/aboutme/</guid>
+      <description>… where it all started
+Dear Visitor,
+my name is Luca Schiek and I am the creator of this page. I am 22 years old and was born in Krefeld, Germany. During my high school years at the Gymnasium am Moltkeplatz, I socially engaged in the student-run humanitarian initiative Moltke für Afrika e.V. and played competitive tennis @HTC Blau-Weiß Krefeld.
+Motivation
+ “Talent wins games, but teamwork and intelligence win championships” - Michael Jordan</description>
+    </item>
+    
+    <item>
+      <title>Stock Analysis</title>
+      <link>/blogs/stockreturns/</link>
+      <pubDate>Tue, 31 Oct 2017 22:26:13 -0500</pubDate>
+      
+      <guid>/blogs/stockreturns/</guid>
+      <description>In this chapter, we will investigate stock data from NYSE and DIJA. While doing so, basic financial theory and concepts will be explained and applied to real stock data.</description>
+    </item>
+    
+    <item>
+      <title>Stock Returns</title>
+      <link>/projects/stockreturns/</link>
+      <pubDate>Tue, 31 Oct 2017 22:26:13 -0500</pubDate>
+      
+      <guid>/projects/stockreturns/</guid>
+      <description>We will use the tidyquant package to download historical data of stock prices, calculate returns, and examine the distribution of returns.
+The file nyse.csv contains 508 stocks listed on the NYSE, their ticker symbol, name, the IPO (Initial Public Offering) year, and the sector and industry the company is in.
+nyse &amp;lt;- read_csv(here::here(&amp;quot;data&amp;quot;,&amp;quot;nyse.csv&amp;quot;)) First, we want to get have a look at the industries the companies are operating in. Therefore, we create bar plot that shows as how many companies are in each industry.</description>
+    </item>
+    
+    <item>
+      <title>The Inverted Yield Curve</title>
+      <link>/blogs/yieldcurve/</link>
+      <pubDate>Tue, 31 Oct 2017 22:26:09 -0500</pubDate>
+      
+      <guid>/blogs/yieldcurve/</guid>
+      <description>We are investigating US yield data from the FRED database to analyse the predictive power of inverted yield curves to its ability to forecast recessions.</description>
+    </item>
+    
+    <item>
+      <title>The Inverted Yield Curve</title>
+      <link>/projects/yieldcurve/</link>
+      <pubDate>Tue, 31 Oct 2017 22:26:09 -0500</pubDate>
+      
+      <guid>/projects/yieldcurve/</guid>
+      <description>The inverted yield curve
+Every so often, we hear warnings from commentators on the “inverted yield curve” and its predictive power with respect to recessions. An explainer what a inverted yield curve is can be found here. If you’d rather listen to something, here is a great podcast from NPR on yield curve indicators
+In addition, many articles and commentators think that, e.g., Yield curve inversion is viewed as a harbinger of recession.</description>
+    </item>
+    
+    <item>
+      <title>GDP Decomposition</title>
+      <link>/blogs/gdpdecomp/</link>
+      <pubDate>Tue, 31 Oct 2017 21:28:43 -0500</pubDate>
+      
+      <guid>/blogs/gdpdecomp/</guid>
+      <description>Investigating the different components of GDP and how much each factors contributes to the country´s growth.</description>
+    </item>
+    
+    <item>
+      <title>GDP Decomposition</title>
+      <link>/projects/gdpdecomp/</link>
+      <pubDate>Tue, 31 Oct 2017 21:28:43 -0500</pubDate>
+      
+      <guid>/projects/gdpdecomp/</guid>
+      <description>GDP components over time and among countries
+At the risk of oversimplifying things, the main components of gross domestic product, GDP are Personal Consumption (C), business investment (I), government spending (G) and net exports. You can read more about GDP and the different approaches in calculating at the Wikipedia GDP page.
+The GDP data we will look at is from the United Nations’ National Accounts Main Aggregates Database, which contains estimates of total GDP and its components for all countries from 1970 to today.</description>
+    </item>
+    
+    <item>
+      <title>Hello R Markdown</title>
+      <link>/post/2015-07-23-r-rmarkdown/</link>
+      <pubDate>Thu, 23 Jul 2015 21:13:14 -0500</pubDate>
+      
+      <guid>/post/2015-07-23-r-rmarkdown/</guid>
+      <description>R Markdown This is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see http://rmarkdown.rstudio.com.
+You can embed an R code chunk like this:
+summary(cars) ## speed dist ## Min. : 4.0 Min. : 2.00 ## 1st Qu.:12.0 1st Qu.: 26.00 ## Median :15.0 Median : 36.00 ## Mean :15.4 Mean : 42.98 ## 3rd Qu.</description>
+    </item>
+    
+  </channel>
+</rss>
